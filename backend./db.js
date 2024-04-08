@@ -3,7 +3,8 @@ mongoose.connect('mongodb+srv://Chayan-Sarkar:Cs2vRP2wIinrmtcV@card-app-cluster.
 const cardSchema = mongoose.Schema({
     name: String,
     description: String, 
-    links: Array, 
+    instalink: String,
+    xlink:String, 
     interest: String 
 })
 const card = mongoose.model('card', cardSchema); 
